@@ -18,15 +18,18 @@ class Count extends React.Component {
 
     render() {
       const count = this.state.count;
-      const county = this.state.count;
+     
       return (
         <div>
-            <button onClick= {this.increment}>
-                 {count}
+            <button 
+                onClick= {this.increment}>               
             </button>
-                <button onClick={this.decrement}>
-                    {county}
-                </button>
+                <div>
+                    {count}
+                </div>           
+                    <button 
+                        onClick={this.decrement}>                
+                    </button>
         </div>
       );
     }
